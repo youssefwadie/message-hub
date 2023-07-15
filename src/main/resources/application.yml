@@ -18,6 +18,12 @@ spring:
             client-id: ${GITHUB_CLIENT_ID}
             client-secret: ${GITHUB_CLIENT_SECRET}
 
+#astra:
+#  db:
+#    id: ${ASTRA_DB_APPLICATION_ID}
+#    region: ${ASTRA_DB_REGION}
+#    keyspace: ${ASTRA_DB_KEYSPACE}
+#    application-token: ${ASTRA_DB_APPLICATION_TOKEN}
 
 datastax:
   astra:

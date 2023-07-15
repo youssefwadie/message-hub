@@ -8,12 +8,12 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 @SpringBootApplication(exclude = ReactiveUserDetailsServiceAutoConfiguration.class)
 @EnableConfigurationProperties({
-		DataStaxAstraProperties.class
+        DataStaxAstraProperties.class
 })
 public class MessageHubApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(MessageHubApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(MessageHubApplication.class, args);
+    }
 
 }
