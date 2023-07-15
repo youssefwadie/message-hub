@@ -21,8 +21,7 @@ public class FolderBootStrap implements CommandLineRunner {
                 new Folder("youssefwadie", "Inbox", "blue"),
                 new Folder("youssefwadie", "Inbox", "blue"),
                 new Folder("youssefwadie", "Inbox", "blue"),
-                new Folder("youssefwadie", "Inbox", "blue"),
-
-                );
+                new Folder("youssefwadie", "Inbox", "blue")
+        );
     }
 }
